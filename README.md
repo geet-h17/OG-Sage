@@ -6,7 +6,7 @@ pip install uv
 ```
 
 ```bash
-uv venv sagemaker-env
+uv venv --python=3.10 sagemaker-env
 ```
 
 ```bash
@@ -16,7 +16,6 @@ source sagemaker-env/bin/activate
 ```bash
 pip install sagemaker
 ```
-
 
 ```bash
 uv pip install -r requirements.txt 
